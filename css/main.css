@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+}
+
+:root {
+  /* ### Primary */
+
+  /* (main background) */
+  --very-dark-blue: hsl(233, 47%, 7%);
+
+  /* (card background) */
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  /* -(accent) */
+  --soft-violet: hsl(277, 64%, 61%);
+
+  /* ### Neutral */
+
+  /* (main heading, stats) */
+  --white: hsl(0, 0%, 100%);
+
+  /* (main paragraph) */
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+
+  /* (stat headings) */
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  font-family: "Inter", sans-serif;
+  /* font-family: "Lexend Deca", sans-serif; */
+  background-repeat: repeat-x;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+  }
+}

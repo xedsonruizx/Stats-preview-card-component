@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
-
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/alignments.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/margins.css">
+  <link rel="stylesheet" href="./css/paddings.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <main id="main">
+    <div class="card-grid">
+      <!-- item 2 -->
+      <div class="item-1">
+        <h1 class="title"> Get <span class="violet">insights</span> that help your business grow.</h1>
+        <div class="info">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</div>
+        <div class="data">
+          <div class="col-1">
+            <div class="number"> 10k+</div>
+            <div class="text">companies</div>
+          </div>
+          <div class="col-2">
+            <div class="number">314</div>
+            <div class="text">templates</div>
+          </div>
+          <div class="col-3">
+            <div class="number">12m+</div>
+            <div class="text">queries</div>
+          </div>
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="item-2">
+        <div class="img"> <div class="trans-box"></div></div>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/xedsonruizx?tab=repositories">Edson
+        Ruiz Salinas</a>.
+    </footer>
+  </main>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
+
 </html>
