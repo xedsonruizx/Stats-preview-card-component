@@ -44,19 +44,24 @@
 
 .item-2 {
   border-radius: 0px 15px 15px 0px;
-  /* position: relative; */
+  background-color: var(--soft-violet);
+  display: flex;
+
 }
 
-.trans-box {
+
+  /* position: relative; */
+/* .trans-box {
   width: 540px;
   height: 446px;
   background-color: hsl(277, 64%, 61%);
   filter: brightness(60%);
   opacity: 60%;
   border-radius: 0px 15px 15px 0px;
-}
+} */
 
 .img {
+  mix-blend-mode: multiply;
   width: 540px;
   height: 446px;
   background-image: url(../images/image-header-desktop.jpg);
